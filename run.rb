@@ -3,6 +3,7 @@ require 'pry'
 class Recipe
 
     attr_reader :name # Getter macro
+    attr_writer :name # Setter macro
 
     def initialize(name)
         @name = name
@@ -10,15 +11,15 @@ class Recipe
 
 
     # Getter method
-    def name
-        @name
-    end
+    # def name
+    #     @name
+    # end
 
 
     #Setter method
-    def name=(new_name)
-        @name = new_name
-    end
+    # def name=(new_name)
+    #     @name = new_name
+    # end
 
 
 end
