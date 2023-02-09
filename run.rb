@@ -2,8 +2,14 @@ require 'pry'
 
 class Recipe
 
-    attr_reader :name # Getter macro
-    attr_writer :name # Setter macro
+    # Getter macro
+    # attr_reader :name  
+    
+    # Setter macro
+    # attr_writer :name
+
+    #Getter & Setter
+    attr_accessor :name 
 
     def initialize(name)
         @name = name
